@@ -11,16 +11,16 @@ _putchar('\n');
 }
 else
 {
-int i, j;
-for (i = 1; i <= size; i++)
+int i, j, k;
+for (i = 0; i < size; i++)
 {
-for (j = i; j < size; j++)
+for (j = size - i; j > 1; j--)
 {
-_putchar(' ');
+_putchar(32);
 }
-for (j = i; j <= i; j++)
+for (k = 0; k <= i; k++)
 {
-_putchar('#');
+_putchar(35);
 }
 _putchar('\n');
 }
