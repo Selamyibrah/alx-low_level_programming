@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * mul - multiply 2 int
- * @a: first int 
+ * mul - multiply two integer
+ * @a: first int
  * @b: second int
- * Return: additio of the multiplication
+ * Return: the result of  multiplication
  */
 int mul(int a, int b)
 {
